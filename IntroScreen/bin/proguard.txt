@@ -1,0 +1,71 @@
+# view res/layout/introscreen.xml #generated:51
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.creative.cutebond.AccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.creative.cutebond.AudioUpload { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.creative.cutebond.ChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.creative.cutebond.CntryLang { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.creative.cutebond.CommentsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.creative.cutebond.CreateAlbum { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.creative.cutebond.CuteBond { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.creative.cutebond.Facebook { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.creative.cutebond.IntroScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.creative.cutebond.Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.creative.cutebond.MicroblogUpload { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.creative.cutebond.PhotoUpload { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.creative.cutebond.SendMessage { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.creative.cutebond.UserContacts { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.creative.cutebond.VideoUpload { <init>(...); }
+
+# view res/layout/audioupload.xml #generated:97
+-keep class com.creative.cutebond.controls.AudioRecordingControl { <init>(...); }
+
+# view res/layout/photo_main.xml #generated:7
+-keep class com.creative.cutebond.controls.CuteBondScrollView { <init>(...); }
+
+# view res/layout/main.xml #generated:7
+-keep class com.creative.cutebond.controls.ProgressControl { <init>(...); }
+
+# view res/layout/photo_main.xml #generated:12
+-keep class com.creative.cutebond.controls.SideBySideControl { <init>(...); }
+
+# view res/layout/landing.xml #generated:2
+-keep class com.creative.cutebond.controls.SideViewControl { <init>(...); }
+
+# onClick res/layout/audioupload.xml #generated:106
+# onClick res/layout/audioupload.xml #generated:118
+# onClick res/layout/audioupload.xml #generated:86
+-keepclassmembers class * { *** startRecording(...); }
+
+# onClick res/layout/audioupload.xml #generated:97
+-keepclassmembers class * { *** stopRecording(...); }
+

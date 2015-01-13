@@ -1,0 +1,7 @@
+[
+    "Microblog",
+    "Following",
+    "Followers",
+    "Likes",
+    "Shares"
+]

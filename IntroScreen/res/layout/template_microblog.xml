@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/template_microblog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mb_template_bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/mb_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp" >
+
+        <Button
+            android:id="@+id/mb_reshare_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/mb_follow_btn"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/reshare"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/mb_follow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/follow"
+            android:background="@drawable/follow_hub"
+            android:textColor="@color/bluecolor" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mb_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mb_header"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/mb_user_image"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/mb_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/mb_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/mb_body"
+        android:layout_marginTop="2dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mb_line"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/mb_like_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/mb_like"
+            android:drawablePadding="5dp" />
+
+        <Button
+            android:id="@+id/mb_cmt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/mb_like_btn"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/mb_comment"
+            android:drawablePadding="5dp" />
+
+        <Button
+            android:id="@+id/mb_share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/mb_share"
+            android:drawablePadding="5dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

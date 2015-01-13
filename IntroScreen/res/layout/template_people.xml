@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/template_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/temp_po_icon"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/temp_po_icon_hv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/hover" />
+
+    <TextView
+        android:id="@+id/temp_po_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/temp_po_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:drawableRight="@drawable/online"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/temp_po_dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/temp_po_icon"
+        android:layout_margin="5dp"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

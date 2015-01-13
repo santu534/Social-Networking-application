@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.creative.cutebond.controls.ProgressControl
+        android:id="@+id/download_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#bf000000"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </com.creative.cutebond.controls.ProgressControl>
+
+    <LinearLayout
+        android:id="@+id/menu_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/app_name"
+            android:padding="10dp"
+            android:src="@drawable/icon_menu" />
+
+        <ImageView
+            android:id="@+id/request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:padding="10dp"
+            android:src="@drawable/icon_add_request_disbaled" />
+
+        <ImageView
+            android:id="@+id/chatmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:padding="10dp"
+            android:src="@drawable/icon_message_disabled" />
+
+        <ImageView
+            android:id="@+id/notifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:padding="10dp"
+            android:src="@drawable/icon_notofication_disabled" />
+
+        <ImageView
+            android:id="@+id/filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:padding="10dp"
+            android:src="@drawable/icon_filter" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/menu_header"
+        android:background="@color/gray" />
+
+    <FrameLayout
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tablayout"
+        android:layout_below="@+id/line"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/videos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/tab_sel_pinkish"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/video_unsel"
+            android:tag="0" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/tablines" />
+
+        <ImageView
+            android:id="@+id/photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/photo_sel"
+            android:tag="1" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/tablines" />
+
+        <ImageView
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/upload_sel"
+            android:tag="2" />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/tablines" />
+
+        <ImageView
+            android:id="@+id/peoples"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/people_sel"
+            android:tag="3" />
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/tablines" />
+
+        <ImageView
+            android:id="@+id/myhub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/myhub_sel"
+            android:tag="4" />
+    </LinearLayout>
+
+</RelativeLayout>

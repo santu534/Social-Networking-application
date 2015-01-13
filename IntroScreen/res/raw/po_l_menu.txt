@@ -1,0 +1,8 @@
+[
+    "People",
+    "Following",
+    "Followers",
+    "Friends Of Other Networks",
+    "Just Around Me",
+    "Friends Of Friends"
+]

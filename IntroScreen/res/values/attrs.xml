@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="controllayouts">
+        <attr name="interval" format="integer" />
+        <attr name="place" format="string" />
+        <attr name="childbgcolor" format="reference" />
+        <attr name="childbgimage" format="reference" />
+        <attr name="tabview" format="reference" />
+        <attr name="tabbgcolors" format="reference" />
+        <attr name="tabtexts" format="reference" />
+        <attr name="tabicons" format="reference" />
+        <attr name="tablayouts" format="reference" />
+    </declare-styleable>
+
+</resources>

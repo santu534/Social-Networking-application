@@ -1,0 +1,101 @@
+{
+    "Zones": [
+        {
+            "topcId": 11,
+            "topic": "All Friends",
+            "ct": 17
+        },
+        {
+            "topicId": "1",
+            "topic": "General News",
+            "ct": 16
+        },
+        {
+            "topicId": "2",
+            "topic": "Family",
+            "ct": 1
+        },
+        {
+            "topicId": "3",
+            "topic": "Personal",
+            "ct": 1
+        },
+        {
+            "topicId": "4",
+            "topic": "Business Info",
+            "ct": 0
+        },
+        {
+            "topicId": "5",
+            "topic": "Work Info",
+            "ct": 1
+        },
+        {
+            "topicId": "6",
+            "topic": "Adult Content",
+            "ct": 0
+        },
+        {
+            "topicId": "7",
+            "topic": "MicroBlog",
+            "ct": 0
+        },
+        {
+            "topicId": "8",
+            "topic": "Kids",
+            "ct": 0
+        },
+        {
+            "topicId": "9",
+            "topic": "Followers",
+            "ct": 6
+        },
+        {
+            "topicId": "10",
+            "topic": "Public Share Only",
+            "ct": 2
+        }
+    ],
+    "Groups": [
+        {
+            "group_name": "scr",
+            "group_id": "10",
+            "group_type": "0",
+            "grp_pics": "72@@1381929514.JPG@@1381929658.JPG@@1,73@@1387017253.jpg@@@@1,76@@1369654028.jpg@@@@1,690@@1384237565.jpg@@@@0"
+        },
+        {
+            "group_name": "csrpri",
+            "group_id": "11",
+            "group_type": "1",
+            "grp_pics": "72@@1381929514.JPG@@1381929658.JPG@@1,73@@1387017253.jpg@@@@1"
+        },
+        {
+            "group_name": "ios group",
+            "group_id": "79",
+            "group_type": "0",
+            "grp_pics": "72@@1381929514.JPG@@1381929658.JPG@@1,73@@1387017253.jpg@@@@1,690@@1384237565.jpg@@@@0"
+        },
+        {
+            "group_name": "csrw_pri",
+            "group_id": "92",
+            "group_type": "1",
+            "grp_pics": "72@@1381929514.JPG@@1381929658.JPG@@1,73@@1387017253.jpg@@@@1,76@@1369654028.jpg@@@@1,85@@1385040016.jpg@@1380181082.jpg@@1"
+        },
+        {
+            "group_name": "secure group 4",
+            "group_id": "106",
+            "group_type": "1",
+            "grp_pics": "72@@1381929514.JPG@@1381929658.JPG@@1,76@@1369654028.jpg@@@@1"
+        },
+        {
+            "group_name": "class 1-10 friends",
+            "group_id": "128",
+            "group_type": "0",
+            "grp_pics": "72@@1381929514.JPG@@1381929658.JPG@@1,1432@@1397812405.jpg@@@@0,1433@@1397823193.jpg@@@@0,1439@@1398143216.jpg@@@@0"
+        }
+    ],
+    "Birthdays": {
+        "birthdays": [],
+        "unread_cnt": 0
+    }
+}

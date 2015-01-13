@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/template_video_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:id="@+id/temp_vid_hr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/template_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/profile_icon" />
+
+        <Button
+            android:id="@+id/template_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/like_frame"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/template_usr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/template_like"
+            android:layout_toRightOf="@+id/template_icon"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/user_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/template_td"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/template_usr"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/template_like"
+            android:layout_toRightOf="@+id/template_icon"
+            android:drawableLeft="@drawable/time_stamp_icon"
+            android:drawablePadding="4dp"
+            android:textColor="#8F8D8D"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/temp_vid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/temp_vid_hr" >
+
+        <ImageView
+            android:id="@+id/temp_vid_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/video_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/temp_vid_icon"
+            android:layout_alignTop="@+id/temp_vid_icon"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/temp_vid_com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/temp_vid_title"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/phots_comments"
+            android:drawablePadding="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/temp_vid_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/temp_vid_icon"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/youtube_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/temp_vid_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/audio_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/temp_vid_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</RelativeLayout>

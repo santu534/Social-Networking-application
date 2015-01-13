@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/hr_line" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/v_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="@string/vrey"
+            android:inputType="textUri" />
+
+        <EditText
+            android:id="@+id/v_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_url"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="@string/title" />
+
+        <RelativeLayout
+            android:id="@+id/editlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_title"
+            android:layout_margin="3dp"
+            android:padding="2dp" >
+
+            <EditText
+                android:id="@+id/vu_ca"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/vu_ca"
+                android:digits="0123456789"
+                android:hint="@string/calbum"
+                android:inputType="phone"
+                android:maxLength="12"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/vu_ca_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vu_ca"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/vu_ca"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/calbum" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/v_desc"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/editlayout"
+            android:layout_margin="5dp"
+            android:hint="@string/description" />
+
+        <TextView
+            android:id="@+id/v_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_desc"
+            android:layout_margin="5dp"
+            android:background="@drawable/photo_grid_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/sl"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/v_cntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_lang"
+            android:layout_margin="5dp"
+            android:background="@drawable/photo_grid_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/sc"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/v_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_cntry"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/photo_grid_bg" >
+
+            <TextView
+                android:id="@+id/tag_people"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/tp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/pinkish"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

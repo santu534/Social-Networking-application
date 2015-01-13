@@ -1,0 +1,222 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ac_main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"            
+             >
+
+            <ImageView
+                android:id="@+id/ac_cover_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"                
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/ac_cover_pic"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/ac_backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/back_btn"
+                android:contentDescription="@string/app_name" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/ac_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ac_backBtn"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/ac_public_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ac_profile_name"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@+id/ac_profile_pic"
+                android:background="@drawable/public_1"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ac_profile_pic"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/ac_profile_name"
+                android:layout_centerHorizontal="true"                
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                 />
+
+            <ImageView
+                android:id="@+id/ac_private_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ac_profile_name"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@+id/ac_profile_pic"
+                android:background="@drawable/private_2"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ac_edit_cover_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ac_backBtn"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignTop="@+id/ac_backBtn"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/camera"
+                android:visibility="invisible"
+                 />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ac_suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ac_af"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ap_f_addreqst" />
+
+            <ImageView
+                android:id="@+id/ac_follow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ap_f_follow" />
+
+            <ImageView
+                android:id="@+id/ac_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ap_f_message" />
+
+            <ImageView
+                android:id="@+id/ac_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/dots_more" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ac_wish_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/ac_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/ac_videos_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/photo_grid_bg"
+                    android:padding="10dp"
+                    android:text="@string/videos" />
+
+                <Button
+                    android:id="@+id/ac_audios_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/photo_grid_bg"
+                    android:padding="10dp"
+                    android:text="@string/audios" />
+
+                <Button
+                    android:id="@+id/ac_photos_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/photo_grid_bg"
+                    android:padding="10dp"
+                    android:text="@string/photos" />
+
+                <Button
+                    android:id="@+id/ac_microblog_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/photo_grid_bg"
+                    android:padding="10dp"
+                    android:text="@string/microblog" />
+
+                <Button
+                    android:id="@+id/ac_pages_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/photo_grid_bg"
+                    android:padding="10dp"
+                    android:text="@string/pages" />
+
+                <Button
+                    android:id="@+id/ac_people_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/photo_grid_bg"
+                    android:padding="10dp"
+                    android:text="@string/people" />
+
+                <Button
+                    android:id="@+id/ac_fnds_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/photo_grid_bg"
+                    android:padding="10dp"
+                    android:text="@string/friends" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>

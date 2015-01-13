@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="postedon">Posted On</string>
+    <string name="nocomments">No Comments</string>
+    <string name="nipcyns">No Internet, Please check your network settings</string>
+    <string name="sas">Cutebond</string>
+    <string name="emn">Enter mobile number</string>
+    <string name="ccode">254</string>
+    <string name="sw">shared with</string>
+    <string name="pevmn">Please enter valid mobile no</string>
+    <string name="ssr">Select some Rating</string>
+    <string name="satf">Successfully added to favorite list</string>
+    <string name="srffl">Successfully removed from favorite list</string>
+    <string name="gss">Gift send to "Recipient mobile number"</string>
+    <string name="cps">Comment posted successfully</string>
+    <string name="likesucc">Successfully updated</string>
+    <string name="exitmsg">Application will be closed. Do you really want to close the app?</string>
+    <string name="yrus">Rating updated successfully</string>
+    <string name="ds">Download started</string>
+    <string name="dippw">Download in progress, please wait....</string>
+    <string name="rmm">Recipient\'s mobile number</string>
+    <string name="installed">Installed</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="likecount">(0)</string>
+    <string name="sr">Search result</string>
+    <string name="esk">Enter search key</string>
+    <string name="pemtc">Please enter minimum three characters</string>
+    <string name="sm">See More</string>
+    <string name="pwbtab">People who bought this, also bought</string>
+    <string name="share">Share</string>
+    <string name="done">Done</string>
+    <string name="cn">Create New</string>
+    <string name="next">Next</string>
+    <string name="urating">Rate</string>
+    <string name="description">Description</string>
+    <string name="mf">Mark Favorite</string>
+    <string name="favo">Favorite</string>
+    <string name="gift">Gift</string>
+    <string name="giftisapp">Gift this App</string>
+    <string name="removeapp">Remove App</string>
+    <string name="wyc">Write your comment</string>
+    <string name="comments">Comments</string>
+    <string name="wac">Write a Comment</string>
+    <string name="like">Like</string>
+    <string name="liked">Liked</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading....</string>
+    <string name="app_name">Cutebond</string>
+    <string name="afb">Add For Public</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="photo">Photo</string>
+    
+    <string name="videos">Videos</string>
+    <string name="audios">Audios</string>
+    <string name="photos">Photos</string>
+    <string name="pages">Pages</string>
+    <string name="friends">Friends</string>
+    
+    
+    <string name="chat">Chat</string>
+    <string name="myhub">My Hub</string>
+    <string name="closex"> X </string>
+    <string name="audioupload">Audio Upload</string>
+    <string name="photoupload">Photo Upload</string>
+    <string name="videoupload">Video Upload</string>
+    <string name="chats">Chats</string>
+    <string name="notifications">Notifications</string>
+    <string name="zerozero">0:00</string>
+    <string name="nr">New Record</string>
+    <string name="tomtsnr">Tap on mic to start new record</string>
+    <string name="saoi">Select any One Image</string>
+    <string name="recording">Recording.....</string>
+    <string name="nuaforvu">Note: Upload Audio File Or Record Voice Up to 7MB</string>
+    <string name="calbum">Create Album</string>
+    <string name="title">Title</string>
+    <string name="vrey">Video URL Example : Youtube</string>
+    <string name="nocontent">No Content</string>
+    <string name="ncs">There are no search result found.</string>
+    <string name="sdcardmsg1">Sorry no memory card Found</string>
+    <string name="sdcardmsg2">SDCard is wirte protected, can not save content</string>
+    <string name="app">Application</string>
+    <string name="pw">Please wait....</string>
+    <string name="game">Game</string>
+    <string name="download">Download</string>
+    <string name="downloading">Download....</string>
+    <string name="reinstall">Reinstall</string>
+    <string name="get">Get</string>
+    <string name="install">Install</string>
+    <string name="remove">Remove</string>
+    <string name="markf">Mark Favorite</string>
+    <string name="msisdnnf">Unable to connect, please ensure you are connected to Safaricom Internet and try again</string>
+    <string name="nonetmsg">We could not establish an internet connection, please check your handset is correctly setup for internet</string>
+    <string name="aysywtrtifyf">Are you sure you want to remove this app?</string>
+    <string name="nonettitle">Message</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="send">Send</string>
+    <string name="msisdnformat">Note: Please enter mobile no in this format 07xxxxxxxx</string>
+    <string name="post">Post</string>
+    <string name="isr">Invalid server response</string>
+    <string name="sct">Server connection timeout.!</string>
+    <string name="snr1">Server not reachable.!</string>
+    <string name="iurl">Invalid URL</string>
+    <string name="snr2">Server not reachable.!!</string>
+    <string name="snr3">Server not reachable.!!!</string>
+    <string name="anf">Application Not Found</string>
+    <string name="myapps">My Apps</string>
+    <string name="favorites">Favorites</string>
+    <string name="help">Help</string>
+    <string name="redirectmsg">You will be redirected to the third party appstore. Please click on OK to continue.</string>
+    <string name="ptc">Privacy / T&amp;C</string>
+    <string name="exit">Exit</string>
+    <string name="nosub">No subcategories are defined</string>
+    <string name="nocon">No Content</string>
+    <string name="pdtaf">For posting a comment on this app. first you have to download the app.</string>
+    <string name="trtafyhtdta">To rate this app. first you have to download the app.</string>
+    <string name="update">Update</string>
+    <string name="auiafyadywpwtu">An update is available for your app. Please proceed with the update</string>
+    <string name="ufptl">Update failed, Please try later</string>
+    <string name="aeoptal">An error occurred, please try again later</string>
+    <string name="pwlc">Please wait loading content</string>
+    <string name="csl">Contacts List</string>
+    <string name="selectalbum">Select Album</string>
+    <string name="publictxt">Public          </string>
+    <string name="privatetxt">          Private</string>
+    <string name="follow">Follow</string>
+    <string name="mfr">Magic Friend Request</string>
+    <string name="challenge">Challenge</string>
+    <string name="login">Login</string>
+    <string name="wltpypwnpawyp">We Love To Protect Your Privacy, We\'ll never post anything without your permission.</string>
+    <string name="people">People</string>
+    <string name="sc">Select Country</string>
+    <string name="tp">Tag People</string>
+    <string name="sl">Select Launguage</string>
+    <string name="microblog">Micro Blog</string>
+    <string name="sendmsg">Send Message</string>
+    <string name="pyc">Post your comment</string>
+    <string name="catgr">CATEGORIES</string>
+    <string name="categories">Categories</string>
+    <string name="zero">0</string>
+    <string name="vmc">View More Comments</string>
+    <string name="inbox">Inbox</string>
+    <string name="others">Others</string>
+    <string name="blocked">Blocked</string>
+    <string name="cnew">Create New</string>
+    <string name="tyurlh">Type your URL here</string>
+    <string name="pff">Post for Friends</string>
+    <string name="cr">Camera Roll</string>
+    <string name="pl">Photo Library</string>
+    <string name="furl">From URL</string>
+
+    <string-array name="intro_icons">
+        <item>@drawable/slide1</item>
+        <item>@drawable/slide2</item>
+        <item>@drawable/slide3</item>
+        <item>@drawable/slide4</item>
+        <item>@drawable/slide5</item>
+        <item>@drawable/slide6</item>
+    </string-array>
+
+</resources>

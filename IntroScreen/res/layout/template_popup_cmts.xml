@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/vc_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F8" >
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_btn"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/people_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/comments"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/viewcomments_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/vc_footer"
+        android:layout_below="@+id/vc_header"
+        android:background="@android:color/white" >
+
+        <ListView
+            android:id="@+id/viewcomments_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"            
+            android:divider="@color/gray"
+            android:dividerHeight="1dp" />
+
+        <ProgressBar
+            android:id="@+id/viewcomments_pbar"
+            style="@android:style/Widget.ProgressBar.Large.Inverse"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="gone" >
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/noreview_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/nocomments"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone" >
+        </TextView>
+    </FrameLayout>
+
+    <include
+        android:id="@+id/vc_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/template_search" />
+
+</RelativeLayout>

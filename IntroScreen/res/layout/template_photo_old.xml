@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/template_layout_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo_grid_bg"
+     >
+
+    <ImageView
+        android:id="@+id/temp_pt_icon"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/temp_pt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/temp_pt_icon"
+        android:layout_margin="5dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/temp_pt_cnts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp_pt_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+
+        <Button
+            android:id="@+id/temp_pt_like"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/phots_likes_outer"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/zero"
+            android:textColor="@color/darkgrey" />
+
+        <Button
+            android:id="@+id/temp_pt_shr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/phots_share_outer"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/zero"
+            android:textColor="@color/darkgrey" />
+
+        <Button
+            android:id="@+id/temp_pt_cmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/phots_comments"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/zero"
+            android:textColor="@color/darkgrey" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/temp_pt_sp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/temp_pt_cnts"
+        android:layout_marginTop="5dp"
+        android:background="@color/p_b_line" />
+
+    <RelativeLayout
+        android:id="@+id/temp_usr_det"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp_pt_sp"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/temp_usr_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/profile_icon" />
+
+        <TextView
+            android:id="@+id/temp_usr_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/temp_usr_icon"
+            android:textColor="#7A7A7A" />
+
+        <TextView
+            android:id="@+id/temp_usr_nam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temp_usr_name"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/temp_usr_icon"
+            android:singleLine="true"
+            android:textColor="@color/tablines" />
+    </RelativeLayout>
+
+</RelativeLayout>

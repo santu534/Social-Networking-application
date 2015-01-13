@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="red">#fe0000</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#6eb43f</color>
+    <color name="gray">#DEDEDE</color>
+    <color name="black">#000000</color>
+    <color name="bluecolor">#5381AC</color>
+    <color name="menublue">#27857A</color>
+    <color name="darkgrey">#b7b7b7</color>
+    <color name="lightblack">#4F4B50</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="pinkish">#ffabab</color>
+    <color name="tab_sel_pinkish">#F45D5D</color>
+    <color name="tablines">#D2D0D7</color>
+    
+    <color name="user_color">#707070</color>
+    
+    <color name="like_but_color">#5C5B5B</color>
+    
+    <color name="p_p_line">#FCD3F5</color>
+    <color name="p_b_line">#91ADFF</color>
+    
+    
+    
+
+</resources>

@@ -1,0 +1,124 @@
+{
+    "categories": [
+        {
+            "photo_id": "1",
+            "photo_categories": "Men's  Fashion & Accessories"
+        },
+        {
+            "photo_id": "2",
+            "photo_categories": "My Photos ( Public )"
+        },
+        {
+            "photo_id": "3",
+            "photo_categories": "Women's Fashion & Accessories"
+        },
+        {
+            "photo_id": "4",
+            "photo_categories": "Celebrities"
+        },
+        {
+            "photo_id": "5",
+            "photo_categories": "Hair & Beauty"
+        },
+        {
+            "photo_id": "6",
+            "photo_categories": "Tattoos"
+        },
+        {
+            "photo_id": "7",
+            "photo_categories": "Health,Fitness & Sports"
+        },
+        {
+            "photo_id": "8",
+            "photo_categories": "Food & Drink"
+        },
+        {
+            "photo_id": "9",
+            "photo_categories": "Automobiles"
+        },
+        {
+            "photo_id": "10",
+            "photo_categories": "Illustrations,Posters & Quotes"
+        },
+        {
+            "photo_id": "11",
+            "photo_categories": "Humour"
+        },
+        {
+            "photo_id": "12",
+            "photo_categories": "Film,Music & Books"
+        },
+        {
+            "photo_id": "13",
+            "photo_categories": "Photography"
+        },
+        {
+            "photo_id": "14",
+            "photo_categories": "Design"
+        },
+        {
+            "photo_id": "15",
+            "photo_categories": "Arts & Crafts"
+        },
+        {
+            "photo_id": "16",
+            "photo_categories": "Products"
+        },
+        {
+            "photo_id": "17",
+            "photo_categories": "Architecture"
+        },
+        {
+            "photo_id": "18",
+            "photo_categories": "Interior & Home Decor"
+        },
+        {
+            "photo_id": "19",
+            "photo_categories": "Technology"
+        },
+        {
+            "photo_id": "20",
+            "photo_categories": "Geek"
+        },
+        {
+            "photo_id": "21",
+            "photo_categories": "Science"
+        },
+        {
+            "photo_id": "22",
+            "photo_categories": "Animals"
+        },
+        {
+            "photo_id": "23",
+            "photo_categories": "Holidays & Events"
+        },
+        {
+            "photo_id": "24",
+            "photo_categories": "Weddings"
+        },
+        {
+            "photo_id": "25",
+            "photo_categories": "Travel"
+        },
+        {
+            "photo_id": "26",
+            "photo_categories": "Outdoors"
+        },
+        {
+            "photo_id": "27",
+            "photo_categories": "Go Green / Recycle"
+        },
+        {
+            "photo_id": "28",
+            "photo_categories": "Gardening"
+        },
+        {
+            "photo_id": "29",
+            "photo_categories": "History"
+        },
+        {
+            "photo_id": "30",
+            "photo_categories": "Kids"
+        }
+    ]
+}

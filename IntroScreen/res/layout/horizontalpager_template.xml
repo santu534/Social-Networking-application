@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hp_tempt_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/toplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/hp_tempt_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_saperator"
+            android:contentDescription="@string/app_name" >
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8F8F8"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/hp_tempt_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:drawablePadding="4dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text="@string/nocontent"
+                android:textColor="@color/darkgrey"
+                android:textSize="15sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/showmore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawablePadding="4dp"
+                android:drawableRight="@drawable/more_cmts"
+                android:gravity="left"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text="@string/vmc"
+                android:textColor="@color/darkgrey"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone" >
+            </TextView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/hp_tempt_line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_saperator"
+            android:contentDescription="@string/app_name" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hp_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toplay"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

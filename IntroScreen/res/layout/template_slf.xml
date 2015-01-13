@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <View
+        android:id="@+id/midview3"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/share_public"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/midview3"
+        android:background="@drawable/bg_template_slf"
+        android:contentDescription="@string/app_name"
+        android:drawableLeft="@drawable/public_globe"
+        android:drawablePadding="5dp"
+        android:gravity="left|center_vertical"
+        android:paddingRight="10dp"
+        android:src="@drawable/like_unsel"
+        android:text="@string/publictxt"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/share_private"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/midview3"
+        android:background="@drawable/bg_template_slf"
+        android:contentDescription="@string/app_name"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/private_lock"
+        android:gravity="right|center_vertical"
+        android:src="@drawable/like_unsel"
+        android:text="@string/privatetxt"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/midimage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/share_icon" />
+
+</RelativeLayout>

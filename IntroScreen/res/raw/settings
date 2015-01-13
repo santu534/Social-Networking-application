@@ -1,0 +1,50 @@
+
+# content_listing_v = http://www.cutebond.com/sott_json/videos/videos_list?userid=(UID)
+
+content_listing_v = http://www.cutebond.com/sott_json/videos/videos_list?userid=(UID)&cat_id=(CATID)&country_id=(CID)&lang_id=(LID)&video_lang_id=(VLID)&page=(PNO)
+
+# content_listing_p = http://www.cutebond.com/sott_json/photos/get_photos?userid=(UID)&page=(PNO)
+
+content_listing_p = http://www.cutebond.com/sott_json/photos/get_photos?userid=(UID)&cat_id=(CATID)&page=(PNO)
+
+content_listing_po = http://www.cutebond.com/sott_json/users/profiles?userid=(UID)&profile_type=(PT)&page=(PNO)
+
+# content_listing_mb = http://www.cutebond.com/sott_json/users/microblog?userid=(UID)&page=(PNO)
+
+content_listing_mb = http://www.cutebond.com/sott_json/users/microblog_android?userid=(UID)&type=(TY)&page=(PNO)
+
+content_listing_mh = http://www.cutebond.com/sott_json/hub/myhub?userid=(UID)&page=(PNO)
+
+v_l_menu = http://www.cutebond.com/sott_json/videos/videos_leftmenu?userid=(UID)
+
+p_l_menu = http://www.cutebond.com/sott_json/photos/left_menu_photos?userid=(UID)
+
+po_l_menu = http://www.cutebond.com/sott_json/users/people_leftmenu?userid=(UID)
+
+mb_l_menu = http://www.cutebond.com/sott_json/users/blog_leftmenu?userid=(UID)
+
+# p_preview = http://www.cutebond.com/sott_json/photos/player_photos?userid=690&photoId=4339
+p_preview = http://www.cutebond.com/sott_json/photos/player_photos?userid=(UID)&photoId=(PID)
+
+# v_preview = http://www.cutebond.com/sott_json/videos/player_videos?userid=690&videoid=976
+v_preview = http://www.cutebond.com/sott_json/videos/player_videos?userid=(UID)&videoid=(VID)
+
+mb_preview = http://www.cutebond.com/sott_json/users/player_micro?userid=(UID)&wallid=(WID)&sessid=(SID)
+
+mh_preview = http://www.cutebond.com/sott_json/hub/view_post_hub?userid=(UID)&wallid=(WID)
+
+account_detail = http://www.cutebond.com/sott_json/users/user_details?userid=(UID)&friend_id=(FID)
+
+cntrylang = http://www.cutebond.com/sott_json/home/index?userid=(UID)
+
+youtube_img = http://img.youtube.com/vi/(VID)/default.jpg
+
+play_audio = http://cutebond.com/webapp/audio/(AID)
+
+content_listing_inbox = http://www.cutebond.com/sott_json/users/messages_list_inbox?userid=(UID)&page=(PNO)
+
+content_listing_others = http://www.cutebond.com/sott_json/users/messages_list_others?userid=(UID)&page=(PNO)
+
+content_listing_block = http://www.cutebond.com/sott_json/users/messages_list_block?userid=(UID)&page=(PNO)
+
+content_listing_nofi = http://www.cutebond.com/sott_json/users/notifications?userid=(UID)&page=(PNO)

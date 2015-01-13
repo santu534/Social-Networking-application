@@ -1,0 +1,37 @@
+<ROOT TT="1060" >
+
+    <SECTION TITLE="Categories" >
+        <GROUP
+            CONTROLTYPE="Horizontal"
+            NAME="Categories"
+            NOI="6"
+            POS="TOP"
+            TITLE="Categories" >
+            <LINK
+                EVENT="ODP_Games"
+                IMAGE="http://vfkn-mstore.imimobile.co//imgproxy/7150224.cimage?size=80x80"
+                TITLE="Games" />
+            <LINK
+                EVENT="ODP_Productivity"
+                IMAGE="http://vfkn-mstore.imimobile.co//imgproxy/7150350.cimage?size=80x80"
+                TITLE="Productivity" />
+            <LINK
+                EVENT="ODP_Utilities"
+                IMAGE="http://vfkn-mstore.imimobile.co//imgproxy/7150409.cimage?size=80x80"
+                TITLE="Utility" />
+            <LINK
+                EVENT="ODP_Communication"
+                IMAGE="http://vfkn-mstore.imimobile.co//imgproxy/7150423.cimage?size=80x80"
+                TITLE="Communications" />
+            <LINK
+                EVENT="ODP_LifeStyle"
+                IMAGE="http://vfkn-mstore.imimobile.co//imgproxy/7150433.cimage?size=80x80"
+                TITLE="Lifestyle" />
+            <LINK
+                EVENT="ODP_Entertainment"
+                IMAGE="http://vfkn-mstore.imimobile.co//imgproxy/7150445.cimage?size=80x80"
+                TITLE="Entertainment" />
+        </GROUP>
+    </SECTION>
+
+</ROOT>

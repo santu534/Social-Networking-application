@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/template_layout_tag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" >
+
+    <ImageView
+        android:id="@+id/template_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />    
+    
+    <Button
+            android:id="@+id/template_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/like_frame"
+            android:padding="5dp" />
+    
+    <ImageView
+            android:id="@+id/template_cht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/template_like"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ap_f_message"
+            android:contentDescription="@string/app_name"
+             />
+
+    <TextView
+        android:id="@+id/template_user_tag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/template_cht"
+        android:layout_toRightOf="@+id/template_icon"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/user_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/template_msg_tag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/template_icon"
+        android:layout_below="@+id/template_user_tag"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/template_cht"
+        android:layout_toRightOf="@+id/template_icon"        
+        android:textColor="@color/gray"        
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/template_icon"
+        android:layout_marginTop="5dp"
+        android:background="@color/gray" >
+    </View>
+
+</RelativeLayout>
